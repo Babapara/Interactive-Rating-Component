@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You!</title>
+  <link rel="stylesheet" href="thankyou.css">
+</head>
+<body>
+  
+
+  <div class="main-body">
+     <div id="imgs"> <img src="/images/illustration-thank-you.svg" alt="thanks"></div>
+      <br>
+  <div class="rated">
+    <main>You selected <span id="selected-rating"><!-- Add rating here --></span> out of 5.</main>
+  </div>
+  <br>
+
+  <div class="vot">
+
+  Thank you!
+</div>
+<br>
+
+<div class="appreciation">
+  We appreciate you taking the time to give a rating. 
+  <br>
+  If you ever need more support, don't hesitate to
+  <br>
+  get in touch!
+</div>
+</div>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Babawibe Duke</a>.
+</div>
+
+ 
+  <script>
+    const selectedNumber = localStorage.getItem('selectedNumber');
+
+    const thankMessage = document.getElementById("selected-rating");
+
+    if(selectedNumber){
+      thankMessage.innerHTML = `${selectedNumber}`
+    }
+
+    localStorage.removeItem("selectedNumber"); 
+  </script>
+  
+</body>
+</html>
