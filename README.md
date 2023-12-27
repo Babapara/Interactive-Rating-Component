@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://babapara.github.io/Interactive-Rating-Component/
 
 ### Built with
 
@@ -46,5 +46,5 @@ So i learnt the use of LocalStorage, the use of conditionality as regards to eve
 
 ## Author
 
-- Website - [Babawibe Duke](https://www.your-site.com)
-- Frontend Mentor - [@Babapara](https://www.frontendmentor.io/profile/Babapara)
+- Website - [Babawibe Duke]      [https://babapara.github.io/Interactive-Rating-Component/]
+- Frontend Mentor - [@Babapara]  https://www.frontendmentor.io/profile/Babapara
